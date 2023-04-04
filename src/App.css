@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.ticket {
+  border: 2px solid black;
+}
+.ticket__h1 {
+  margin-top: 20px;
+}
+
+.ticket__header {
+  text-align: center;
+}
+
+.ticket__employees--cards {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.ticket__employees--cards--name--role {
+  display: inline-flex;
+  width: 150px;
+  height: 200px;
+  margin: 45px;
+  border: 2px solid black;
+  text-align: left;
+  justify-content: center;
+}/*# sourceMappingURL=App.css.map */
